@@ -53,15 +53,39 @@ p {
 img {
   display: block;
 }
+
+.container {
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* #endregion global styles */
 
 /* #region header */
 .page-header {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-cont {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav-all {
@@ -80,8 +104,6 @@ img {
 }
 
 .header-logo {
-  margin-right: 76px;
-  padding-left: 156px;
 }
 
 .header-logo .logo-part {
@@ -111,7 +133,6 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
-  padding-right: 156px;
 }
 
 .address-item {
