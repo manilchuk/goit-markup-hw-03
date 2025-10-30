@@ -115,7 +115,6 @@ img {
 }
 
 .header-nav-li {
-  padding: 24px 0;
 }
 
 .header-nav-link {
@@ -124,6 +123,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .address {
