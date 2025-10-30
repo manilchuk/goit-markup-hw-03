@@ -155,7 +155,7 @@ img {
 /* #endregion header */
 
 /* #region section 1 */
-.hero-image {
+.page-section-one {
   width: 100%;
   background: #2e2f42;
   padding-top: 188px;
@@ -163,7 +163,7 @@ img {
   text-align: center;
 }
 
-.hero-image-text {
+.section-one-title {
   margin-top: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -171,9 +171,11 @@ img {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
 }
 
-.hero-image-button {
+.section-one-button {
+  display: block;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -186,8 +188,10 @@ img {
   padding-block: 16px;
   padding-inline: 32px;
   width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .hero-image-button:hover,
@@ -204,7 +208,6 @@ img {
 }
 
 .section-two-title {
-  display: none;
 }
 
 .section-two-list {
