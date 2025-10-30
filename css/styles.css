@@ -279,11 +279,13 @@ img {
 
 /* #region section 4 */
 .section-four {
-  padding: 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   width: 100%;
 }
 .section-four-title {
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .section-four-list {
@@ -291,10 +293,11 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  margin-top: 72px;
+  row-gap: 48px;
 }
 
 .section-four-card {
+  width: calc((100% - 48px) / 3);
   background: #fff;
 }
 
@@ -309,21 +312,22 @@ img {
 }
 
 .section-four-card-title {
+  margin-bottom: 8px;
 }
 
 .section-four-card-text {
-  padding-top: 8px;
 }
 /* #endregion section 4 */
 
 /* #region footer */
-.footer {
+.page-footer {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
   width: 100%;
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
