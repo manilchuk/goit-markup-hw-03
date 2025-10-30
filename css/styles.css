@@ -160,7 +160,6 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
 }
 
 .section-one-title {
@@ -172,6 +171,8 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-one-button {
@@ -192,6 +193,8 @@ img {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-image-button:hover,
