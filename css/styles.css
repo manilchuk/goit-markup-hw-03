@@ -63,15 +63,15 @@ img {
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
+  margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  overflow: hidden;
 }
 /* #endregion global styles */
 
@@ -201,10 +201,10 @@ img {
 /* #endregion section 1 */
 
 /* #region section 2 */
-.section-two {
+.page-section-two {
   width: 100%;
   margin: 0;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .section-two-title {
@@ -216,22 +216,17 @@ img {
   gap: 24px;
 }
 
-.section-two-list-element {
+.section-two-element {
   width: 264px;
   height: 104px;
   margin: 0;
 }
 
-.section-two-list-element-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.section-two-element-title {
+  margin-bottom: 8px;
 }
 
-.section-two-list-element-text {
+.section-two-element-text {
 }
 /* #endregion section 2 */
 
