@@ -19,7 +19,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 h2 {
@@ -83,7 +83,7 @@ img {
 
 .header-cont {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav-all {
@@ -102,6 +102,7 @@ img {
 }
 
 .header-logo {
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -111,6 +112,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -118,28 +120,32 @@ img {
 }
 
 .header-nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
-.address {
+.contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 .address-item {
-  padding: 24px 0;
 }
 
 .address-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -220,7 +226,7 @@ img {
 }
 
 .section-two-element {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 104px;
   margin: 0;
 }
@@ -257,7 +263,7 @@ img {
   border-radius: 0 0 4px 4px;
   padding-block: 0px 32px;
   padding-inline: 0px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
